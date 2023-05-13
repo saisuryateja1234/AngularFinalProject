@@ -1,0 +1,20 @@
+<mat-toolbar class="menu-bar">
+    <span class="title">SURYA DIET PLAN</span> 
+    <ul>
+      <li><a (click)="home()">{{"menubar.home" | translate}}</a></li>
+      <li><a (click)="dietplan()" >{{"menubar.dietplan" | translate}}</a></li>
+      <li><a (click)="create()">{{"menubar.create" | translate}}</a></li>
+      <li><a (click)="forum()">{{"menubar.forum" | translate}}</a></li>
+      <li><a (click)="testimonials()">{{"menubar.testimonial" | translate}}</a></li>
+      <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+    </ul>
+    <span>
+      <select [(ngModel)]="lang" (change)="changeLang()">
+         <option *ngFor="let x of languages" value={{x.value}}>
+           {{x.name}}</option>
+      </select>
+   </span>
+  </mat-toolbar>
+  
+  <router-outlet></router-outlet>
+

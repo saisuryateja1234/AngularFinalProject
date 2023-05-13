@@ -1,0 +1,32 @@
+.details {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .details > * {
+        display: table-row;
+    }
+    
+    .details h1,
+    .details .image,
+    .details .text {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    
+    .details h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .details .image img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .details .text p {
+        margin: 5px 0;
+    }

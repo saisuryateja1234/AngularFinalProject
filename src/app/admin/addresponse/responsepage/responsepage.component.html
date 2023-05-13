@@ -1,0 +1,13 @@
+<mat-form-field appearance="fill">
+    <mat-label></mat-label>
+    <input matInput [(ngModel)]="response">
+  </mat-form-field>
+  
+  <button mat-raised-button color="primary" class="b1" (click)="AddSuggestion(response)">Submit</button>
+  
+  <div *ngFor="let x of forum.responses">
+    <mat-card>
+      <mat-card-content>{{x}}</mat-card-content>
+    </mat-card>
+  </div>
+  

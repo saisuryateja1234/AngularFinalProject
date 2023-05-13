@@ -1,0 +1,12 @@
+<mat-toolbar class="Nav-bar">
+    <span class="title">Dietary Fiber</span>
+    <ul>
+
+        <li><a (click)="home()">Home</a></li>
+        <li><a (click)="addproduct()">Addproduct</a></li>
+        <li><a (click)="addresponse()">Addresponse</a></li>
+    </ul>
+    <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

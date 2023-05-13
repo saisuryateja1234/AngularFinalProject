@@ -1,0 +1,9 @@
+<select [(ngModel)]="selected" (change)="filterProducts()">
+    <option *ngFor="let x of types">{{x}}</option>
+</select><br/>
+<input class="searchbar"type="text" placeholder="Search" [(ngModel)]="searchValue" (keyup)="filterProducts()">
+<div id="wrapper">
+    <app-items *ngFor="let x of itemslist | typefilter:selected"[items]="x">
+
+</app-items>
+</div>

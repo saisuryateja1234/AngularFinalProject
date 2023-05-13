@@ -1,0 +1,17 @@
+h2 {
+    color: rgb(187, 230, 113);
+    padding: 20px;
+  }
+  
+  select {
+    margin-bottom: 10px;
+  }
+  
+  app-feedback-box {
+    margin-bottom: 10px;
+  }
+  
+  app-feedback-form {
+    margin-top: 20px;
+  }
+  

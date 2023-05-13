@@ -1,0 +1,42 @@
+/* Form container */
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Input field */
+.mat-form-field input {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+/* Button */
+.b1 {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.b1:hover {
+  background-color: #0069d9;
+}
+
+/* Card container */
+.mat-card {
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card content */
+.mat-card-content {
+  padding: 10px;
+}

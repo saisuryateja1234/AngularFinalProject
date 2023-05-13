@@ -1,0 +1,46 @@
+#form {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  background-color: rgb(218, 222, 222);
+}
+
+.producttitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formbox {
+  margin: 0 auto 10px;
+  width: 70%;
+  overflow: hidden;
+}
+
+.name {
+  display: inline-block;
+  width: 70px;
+  font-weight: bold;
+}
+
+.input {
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button1 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #3e8e41;
+}

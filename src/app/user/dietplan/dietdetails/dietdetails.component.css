@@ -1,0 +1,32 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image img {
+  width: 200px;
+  height: auto;
+}
+
+.details-table {
+  margin-top: 10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.details-table th,
+.details-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.details-table th {
+  background-color: #f2f2f2;
+}
+
+.details-table th:first-child,
+.details-table td:first-child {
+  text-align: left;
+}
