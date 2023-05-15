@@ -1,46 +1,52 @@
 .Nav-bar {
+  background-color: #dd56b0;
+  color: #fff;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #39ff02;
-  color: #000;
-  height: 60px;
-  padding: 0 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 16px;
 }
 
 .title {
   font-size: 24px;
+  margin-right: auto;
   font-weight: bold;
 }
 
 ul {
-  display: flex;
   list-style-type: none;
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
 
 li {
-  margin: 0 10px;
+  margin-left: 16px;
 }
 
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .btn {
   border: none;
-  border-radius: 3px;
-  background-color: #dc3545;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+  border-radius: 4px;
   padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.btn:hover {
-  background-color: #c82333;
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+mx-2 {
+  margin: 0 8px;
 }

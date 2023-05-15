@@ -1,46 +1,49 @@
 #form {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 0px 0px 10px #ccc;
-  background-color: rgb(218, 222, 222);
+  width: 400px;
+  margin: 0 auto;
 }
 
 .producttitle {
-  font-size: 24px;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .formbox {
-  margin: 0 auto 10px;
-  width: 70%;
-  overflow: hidden;
+  margin-bottom: 16px;
 }
 
 .name {
   display: inline-block;
-  width: 70px;
-  font-weight: bold;
+  width: 80px;
 }
 
 .input {
-  display: inline-block;
-  width: 200px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #0e1010;
+  border-radius: 4px;
+}
+
+.alert {
+  margin-bottom: 16px;
+  padding: 8px;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+  border-radius: 4px;
 }
 
 .button1 {
-  padding: 10px 20px;
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  padding: 8px;
   border: none;
-  border-radius: 3px;
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
   cursor: pointer;
 }
 
 .button1:hover {
-  background-color: #3e8e41;
+  background-color: #0056b3;
 }

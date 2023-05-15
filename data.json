@@ -106,10 +106,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Taboule Salad",
+      "name": "Apple fruit",
       "type": "Salads",
-      "image": "Taboule_Salad.jpg",
-      "description": "Taboule salad or Tabbouleh is a simple Mediterranean salad of very finely chopped vegetables, lots of fresh parsley and bulgur wheat, all tossed with lime juice and olive oil. Grab my tips and watch the video for how to make tabouli below. Tabouli is likely the topmost famed Mediterranean/Middle Eastern salad there is..",
+      "image": "apple.jpg",
       "qty": "7 oz",
       "Measure": "1 qt.",
       "Grams": 976,
@@ -122,9 +121,9 @@
     },
     {
       "id": 2,
-      "name": "Greek Salad",
+      "name": "Green Apple",
       "type": "Salads",
-      "image": "Greek_Salad.jpg",
+      "image": "Green_Apple.jpg",
       "description": "Greek salad or horiatiki salad (Greek: χωριάτικη σαλάτα[a] or θερινή σαλάτα[b]) is a popular salad in Greek cuisine generally made with pieces of tomatoes, cucumbers, onion, feta cheese (usually served as a slice on top of the other ingredients), and olives (typically Kalamata olives) and dressed with salt, pepper, Greek oregano, and olive oil. ",
       "qty": "7 oz",
       "Measure": "1 qt.",
@@ -917,7 +916,7 @@
   "details": [
     {
       "id": 1,
-      "name": "Diet 1",
+      "name": "DAY1",
       "breakfast": "Scrambled eggs",
       "lunch": "Grilled chicken salad",
       "snacks": "Apple slices with peanut butter",
@@ -925,12 +924,11 @@
       "tea": "Green tea",
       "dinner": "Baked salmon with roasted vegetables",
       "calories": 1500,
-      "description": "A well-balanced diet that provides all the essential nutrients in the right amount is important for maintaining a healthy body and preventing chronic diseases.",
       "image": "diet1.jpg"
     },
     {
       "id": 2,
-      "name": "Diet 2",
+      "name": "DAY2",
       "breakfast": "Oatmeal with berries",
       "lunch": "Turkey sandwich with avocado",
       "snacks": "Carrots and hummus",
@@ -938,12 +936,11 @@
       "tea": "Herbal tea",
       "dinner": "Grilled steak with sweet potato",
       "calories": 1800,
-      "description": "Each type of diet has its own set of guidelines and restrictions on what foods to eat and what to avoid. The purpose of following a diet can vary from individual to individual, such as to improve overall health, to manage specific medical conditions, to lose weight, or to gain weight.",
       "image": "diet2.jpg"
     },
     {
       "id": 3,
-      "name": "Diet 3",
+      "name": "DAY3",
       "breakfast": "Smoothie bowl",
       "lunch": "Quinoa and vegetable stir-fry",
       "snacks": "Yogurt with mixed berries",
@@ -951,12 +948,11 @@
       "tea": "Chamomile tea",
       "dinner": "Baked chicken with asparagus",
       "calories": 1600,
-      "description": "A diet is a particular selection of food that a person chooses to eat regularly for maintaining good health or for weight loss purposes. There are various types of diets, including but not limited to, ketogenic diet, Mediterranean diet, vegetarian diet, vegan diet, low-carb diet, low-fat diet, and paleo diet.",
       "image": "diet3.jpg"
     },
     {
       "id": 4,
-      "name": "Keto Diet",
+      "name": "DAY4",
       "breakfast": "Avocado and Egg Salad",
       "lunch": "Cauliflower Crust Pizza",
       "snacks": "Cheese and Nuts",
@@ -964,12 +960,11 @@
       "tea": "Green Tea",
       "dinner": "Grilled Salmon with Asparagus",
       "calories": 1800,
-      "description": "The keto diet is a high-fat, low-carb diet that aims to help you lose weight by putting your body in a state of ketosis. This means that your body is burning fat for fuel instead of carbs. The diet typically consists of 70-75% fat, 20-25% protein, and 5-10% carbs.",
-      "image": "Keto Diet.jpg"
+      "image": "diet4.jpg"
     },
     {
       "id": 5,
-      "name": "Paleo Diet",
+      "name": "DAY5",
       "breakfast": "Sweet Potato Hash with Fried Eggs",
       "lunch": "Grilled Chicken Salad with Avocado Dressing",
       "snacks": "Carrots and Hummus",
@@ -977,12 +972,11 @@
       "tea": "Herbal Tea",
       "dinner": "Grilled Steak with Roasted Vegetables",
       "calories": 2000,
-      "description": "The paleo diet is a way of eating that mimics the diets of our hunter-gatherer ancestors. It is based on the premise that our bodies are designed to eat the foods that were available to us before the advent of agriculture. This means that the diet typically consists of lean meats, fish, fruits, vegetables, nuts, and seeds.",
-      "image": "Paleo Diet.jpg"
+      "image": "diet5.jpg"
     },
     {
       "id": 6,
-      "name": "Mediterranean Diet",
+      "name": "DAY6",
       "breakfast": "Greek Yogurt with Berries and Granola",
       "lunch": "Mediterranean Chicken and Quinoa Bowl",
       "snacks": "Olives and Cheese",
@@ -990,12 +984,11 @@
       "tea": "Herbal Tea",
       "dinner": "Grilled Fish with Lemon and Herbs",
       "calories": 2200,
-      "description": "The Mediterranean diet is based on the traditional diets of countries bordering the Mediterranean Sea. It emphasizes whole, minimally processed foods, including fruits, vegetables, whole grains, fish, and olive oil. The diet also includes moderate amounts of dairy and red wine, and limited amounts of red meat.",
-      "image": "Mediterranean Diet.jpg"
+      "image": "diet6.jpg"
     },
     {
       "id": 7,
-      "name": "Ketogenic Diet",
+      "name": "DAY7",
       "breakfast": "Eggs with avocado",
       "lunch": "Grilled chicken salad",
       "snacks": "Nuts and cheese",
@@ -1003,12 +996,11 @@
       "tea": "Green tea",
       "dinner": "Salmon with asparagus",
       "calories": "1500",
-      "description": "Ketogenic diet is a high-fat, low-carbohydrate diet that has been shown to help people lose weight. The idea behind the diet is to get your body into a state of ketosis, where it is burning fat for fuel instead of carbohydrates.",
-      "image": "keto-diet.jpg"
+      "image": "diet7.jpg"
     },
     {
       "id": 8,
-      "name": "Mediter Diet",
+      "name": "OVERALL DIET",
       "breakfast": "Greek yogurt with fruit and honey",
       "lunch": "Hummus and vegetable wrap",
       "snacks": "Olives and almonds",
@@ -1017,7 +1009,7 @@
       "dinner": "Grilled fish with vegetables",
       "calories": "1800",
       "description": "The Mediterranean diet is a way of eating that is based on the traditional cuisine of countries bordering the Mediterranean Sea. The diet is characterized by an emphasis on plant-based foods, such as fruits, vegetables, whole grains, legumes, nuts, and seeds, with a moderate consumption of fish, seafood, poultry, and dairy products. It also includes a limited intake of red meat and sweets.",
-      "image": "mediter-diet.jpg"
+      "image": "overall diet.jpg"
     }
   ],
   "feedbacks": [

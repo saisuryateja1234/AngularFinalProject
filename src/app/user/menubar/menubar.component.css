@@ -1,41 +1,62 @@
 .menu-bar {
-    background-image: linear-gradient(to bottom, #50eb74, #8047d6); /* Set background color */
-    color: #5fa4e4; /* Set font color */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    box-shadow: 0 2px 2px rgba(165, 218, 79, 0.3); /* Add shadow */
-  }
-  
-  .menu-bar .title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .menu-bar ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu-bar ul li {
-    margin-right: 20px;
-  }
-  
-  .menu-bar ul li a {
-    color: #180f0f;
-    text-decoration: none;
-    font-size: 18px;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .menu-bar ul li a:hover {
-    color: #a52264;
-  }
-  .btn btn-danger mx-2{
-    position: absolute;
-    right: 4px;
-  }
-  
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.title {
+  font-size: 24px;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 16px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+mx-2 {
+  margin: 0 8px;
+}
+
+select {
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+}

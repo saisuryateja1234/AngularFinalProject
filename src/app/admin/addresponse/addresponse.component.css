@@ -1,96 +1,26 @@
-/* Styling for form field */
-mat-form-field {
-  max-width: 500px;
-  margin: 0 auto;
-  position: relative;
-}
-
-/* Styling for label */
-mat-label {
-  font-size: 20px;
-  color: #333;
-}
-
-/* Styling for input */
-mat-form-field input {
-  border: none;
-  background-color: #eee;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 100%;
-  margin-top: 10px;
-}
-
-/* Animation for label */
-mat-form-field .mat-form-field-label {
-  transform: translateY(-1.5em);
-  font-size: 14px;
-  transition: all 0.2s ease-out;
-}
-
-/* Animation for input */
-mat-form-field .mat-form-field-wrapper {
-  position: relative;
-}
-
-mat-form-field .mat-form-field-underline {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 30;
-  height: 2px;
-  background-color: #333;
-  transition: all 0.2s ease-out;
-}
-
-mat-form-field.ng-tns-c10-0 .mat-form-field-ripple {
-  display: 50px;
-}
-
-/* Animation for label when input is focused */
-mat-form-field.mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
-  transform: translateY(-2.5em) scale(0.8);
-}
-
-/* Animation for underline when input is focused */
-mat-form-field.mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-underline {
+.mat-form-field {
   width: 100%;
 }
 
-/* Styling for button */
 .b1 {
-  display: block;
-  margin-top: 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s ease-out;
+  margin-top: 16px;
 }
 
-/* Animation for button on hover */
-.b1:hover {
-  background-color: #fff;
-  color: #333;
-  border: 2px solid #333;
+.responsebox {
+  margin-top: 16px;
+  padding: 16px;
+  background-color: #8498f3;
+  border-radius: 4px;
 }
 
-/* Animation for response box */
-app-responsebox {
-  margin-top: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  background-color: #f9f9f9;
-  transition: all 0.2s ease-out;
+.responsebox p {
+  margin-bottom: 8px;
 }
 
-/* Animation for response box on hover */
-app-responsebox:hover {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-  transform: translateY(-5px);
+.responsebox .name {
+  font-weight: bold;
+}
+
+.responsebox .message {
+  color: #a8f585;
 }
